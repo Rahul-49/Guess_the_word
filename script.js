@@ -46,9 +46,7 @@ function guesss() {
             }
         }
 
-        if (incorrect.endsWith(",")) {
-            incorrect = incorrect.slice(0, -1);
-        }
+        incorrect = incorrect.substring(0, incorrect.length - 1);
 
         document.getElementById("incorrect").innerHTML = "Incorrect letters: " + incorrect;
     }
