@@ -1,5 +1,21 @@
-let words = ["knife", "meat", "riddle", "budweiser", "squid", "shut", "mansion", "divine", "year", "oscar","cake","zoo","shoe","meher","bhai","salaar"];
-let scWords = ["ifenk", "team", "irdlde", "weiserbud", "uiqsd", "uhst", "samnoni", "vineid", "ayre", "racso","akec","ozo","oehs","reemh","abhi","laaars"];
+//let words = ["knife", "meat", "riddle", "budweiser", "squid", "shut", "mansion", "divine", "year", "oscar","cake","zoo","shoe","meher","bhai","salaar"];
+//let scWords = ["ifenk", "team", "irdlde", "weiserbud", "uiqsd", "uhst", "samnoni", "vineid", "ayre", "racso","akec","ozo","oehs","reemh","abhi","laaars"];
+let words = [
+  "planet", "mirror", "gadget", "jumble", "cradle", "oxygen", "ranger", "wizard", "purple", "castle",
+  "battle", "silver", "ticket", "hunter", "python", "grapes", "banana", "fluent", "magnet", "rocket",
+  "anchor", "bridge", "camera", "drawer", "engine", "famous", "glider", "helmet", "insect", "jungle",
+  "kitten", "legend", "marble", "number", "object", "puzzle", "quartz", "rescue", "stripe", "temple",
+  "urgent", "victor", "window", "xenial", "yellow", "zephyr", "island", "forest", "bubble", "thread"
+];
+
+let scWords = [
+  "etnlap", "rorrim", "gdeagt", "bjeulm", "edlcar", "gyxoen", "gernra", "azidrw", "rplupe", "ltseac",
+  "tlbtte", "vresil", "kittce", "nruthe", "typhon", "espagr", "nabana", "efltun", "tmenag", "etkcro",
+  "hranco", "gbdire", "recmaa", "wrrade", "neneig", "somfua", "ldigre", "tmeelh", "nseict", "nuelgj",
+  "entkki", "dgelen", "albmre", "ubnrem", "tjecob", "zpuzle", "ztqura", "sreeuc", "esitpr", "melpte",
+  "gnrute", "ctviro", "nwidwo", "enilax", "lwyelo", "ezyphr", "dnlsai", "rstoef", "luebbb", "dahetr"
+];
+
 
 let index = 0;
 let original = words[index];
@@ -20,7 +36,7 @@ function sWord() {
 
 // Random index generator
 function generateNum() {
-    return Math.floor(Math.random() * words.length) % 16;
+    return Math.floor(Math.random() * words.length) % 50;
 }
 
 // Guess Function
