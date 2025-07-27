@@ -1,7 +1,3 @@
-Thank you. Based on your detailed CSS, here’s an **enhanced and aligned version** of your `README.md` that better reflects your styling, responsiveness, and layout structure:
-
----
-
 # 🎮 Guess the Word Game
 
 An interactive and visually engaging **Word Guessing Game** built using **HTML**, **CSS**, and **JavaScript**. The player must identify the correct word from a scrambled version within a limited number of attempts. The UI is designed with modern visual elements and fully adapts across all screen sizes.
